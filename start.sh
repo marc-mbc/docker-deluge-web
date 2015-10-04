@@ -2,4 +2,4 @@
 
 set -e
 
-exec deluge-web -c /config -L info -l /config/deluge-web.log
+exec su - deluge -c 'deluge-web -c /config -L info -l /config/deluge-web.log'
