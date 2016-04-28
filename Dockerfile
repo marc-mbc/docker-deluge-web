@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM sdhibit/rpi-raspbian:jessie
 
 MAINTAINER Marc Blando Coll
 
